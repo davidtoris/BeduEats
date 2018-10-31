@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600');
+
+
+$azul: #373D48;
+$verde: #29AA57;
+$gris-primario: #9B9B9B;
+$gris-secundario: #F3F3F3;
+
+body{
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+}
+.container-box{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1%;
+}
+input{
+    border: none;
+    border-bottom: 1px solid $gris-secundario;
+    width: 100%;
+}
+header{
+    padding: 2% 0;
+    box-shadow: 1px 1px 5px $gris-primario;
+}
+header .container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: $azul;
+    font-size: 2em;
+}
+.logo span{
+    font-weight: 100;
+    
+}
+.avatar{
+ text-align: right;
+}
+.avatar img{
+    width: 25%;
+    border-radius: 50%;
+}
+/* *************** NAVEGACION  **************** */
+nav{
+    background: $azul;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    align-items: center;    
+    margin-right: 5%;
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;
+}
+nav ul li a{
+    color: white;
+    font-size: .9em;
+}
+nav ul li i{
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+/* *************** BUSQUEDA  **************** */
+
+.busqueda{
+    padding: 2%;
+    font-weight: 500;
+}
+.filtro{
+    width: 100%;
+    text-align: right;
+}
+
+
+.titulos-secciones{
+    color: $azul;
+    
+}
+
+/* *************** PROMOCIONES  **************** */
+
+.promociones{
+    padding: 0 1%;
+}
+.item-promociones{
+    margin: 2% 0;
+}
+.item-promociones .imagen{
+    height: 180px;
+    overflow: hidden;
+}
+.item-promociones img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.item-promociones .titulo{
+    color: $azul;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.item-promociones .tipo{
+    color: $gris-primario;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+}
+.item-promociones .promociones{
+    color: $verde;
+    font-size: 1em;
+}
+.item-promociones .detalles{
+    color: $gris-primario;
+    display: flex;
+    justify-content: space-between;
+}
+.item-promociones .detalles .raiting{
+    width: 50%;
+    text-align: right; 
+}
+.item-promociones .detalles .raiting span{
+    margin-left: 1%;
+    font-size: .9em;
+}
+.item-promociones .detalles .raiting i{
+    font-size: .8em;
+}
+
+footer{
+    padding-top: 15%;
+}
