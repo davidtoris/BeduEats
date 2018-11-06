@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500, 600,700');
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600');
 
 
@@ -36,7 +36,7 @@ header .container-header{
 }
 .logo span{
     font-weight: 100;
-    
+
 }
 .avatar{
  text-align: right;
@@ -90,16 +90,22 @@ nav ul li i{
     
 }
 
+/* *************** FOOTER  **************** */
+footer{
+    padding-top: 15%;
+}
+
+
 /* *************** PROMOCIONES  **************** */
 
 .promociones{
-    padding: 0 1%;
+    
 }
 .item-promociones{
-    margin: 2% 0;
+    margin: 2.5% 0;
+    
 }
-.item-promociones .imagen{
-    height: 180px;
+.item-promociones .imagen{  
     overflow: hidden;
 }
 .item-promociones img{
@@ -139,6 +145,39 @@ nav ul li i{
     font-size: .8em;
 }
 
-footer{
-    padding-top: 15%;
+
+
+/* *************** RESTARURANTES  **************** */
+.restaurante-titulo{
+    background: $azul;
+    color: white;
+    padding: 4% 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.6em;
+}
+
+/* *************** PLATILLOS  **************** */
+.platillo-titulo{
+    color: $azul;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.4em;
+    margin-top: 4%;  
+}
+.platillo-img img{
+    width: 100%;
+}
+.platillo-descripcion{
+    color: $gris-primario;
+    font-size: .9em;
+    margin: 3% 0;
+}
+.platillo-btn{
+    background: $verde;
+    color: white;
+    
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 10%;
 }
